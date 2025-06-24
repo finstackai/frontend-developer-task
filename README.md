@@ -29,7 +29,7 @@ Refer to the `api/` folder for mock API structure and responses:
 ### 1. Top-Level Layout
 
 - Use a responsive **3-column grid** on desktop, stacked vertically on mobile.
-- **Header**: App name “**Loanstax**” with search, help, and notification icons aligned top-right.
+- **Header**: App name “**DemoApp**” with search, help, and notification icons aligned top-right.
 - Each content block (Pipeline, Borrower Detail, Broker Info) should be wrapped in a **Card** component with padding and shadows.
 
 ---
