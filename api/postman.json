@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "af30567e-addf-4de1-a2e9-86d6bbdf4e2a",
+		"name": "Loanstax Mock API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Borrower Pipeline",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://australia-southeast1-finstack-ai.cloudfunctions.net/demoApi/api/borrowers/pipeline",
+					"protocol": "https",
+					"host": [
+						"australia-southeast1-finstack-ai",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"demoApi",
+						"api",
+						"borrowers",
+						"pipeline"
+					]
+				},
+				"description": "Mock response for Get Borrower Pipeline"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Borrower Detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://australia-southeast1-finstack-ai.cloudfunctions.net/demoApi/api/borrowers/ID12345",
+					"protocol": "https",
+					"host": [
+						"australia-southeast1-finstack-ai",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"demoApi",
+						"api",
+						"borrowers",
+						"ID12345"
+					]
+				},
+				"description": "Mock response for Get Borrower Detail"
+			},
+			"response": []
+		},
+		{
+			"name": "Request Documents",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"success\": true,\n  \"message\": \"Documents requested.\"\n}"
+				},
+				"url": {
+					"raw": "https://australia-southeast1-finstack-ai.cloudfunctions.net/demoApi/api/borrowers/{id}/request-documents",
+					"protocol": "https",
+					"host": [
+						"australia-southeast1-finstack-ai",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"demoApi",
+						"api",
+						"borrowers",
+						"{id}",
+						"request-documents"
+					]
+				},
+				"description": "Mock response for Request Documents"
+			},
+			"response": []
+		},
+		{
+			"name": "Send to Valuer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"success\": true,\n  \"message\": \"Valuer notified.\"\n}"
+				},
+				"url": {
+					"raw": "https://australia-southeast1-finstack-ai.cloudfunctions.net/demoApi/api/borrowers/{id}/send-valuer",
+					"protocol": "https",
+					"host": [
+						"australia-southeast1-finstack-ai",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"demoApi",
+						"api",
+						"borrowers",
+						"{id}",
+						"send-valuer"
+					]
+				},
+				"description": "Mock response for Send to Valuer"
+			},
+			"response": []
+		},
+		{
+			"name": "Approve Loan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"success\": true,\n  \"message\": \"Loan approved.\"\n}"
+				},
+				"url": {
+					"raw": "https://australia-southeast1-finstack-ai.cloudfunctions.net/demoApi/api/borrowers/{id}/approve",
+					"protocol": "https",
+					"host": [
+						"australia-southeast1-finstack-ai",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"demoApi",
+						"api",
+						"borrowers",
+						"{id}",
+						"approve"
+					]
+				},
+				"description": "Mock response for Approve Loan"
+			},
+			"response": []
+		},
+		{
+			"name": "Escalate to Credit Committee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"success\": true,\n  \"message\": \"Escalated to Credit Committee.\"\n}"
+				},
+				"url": {
+					"raw": "https://australia-southeast1-finstack-ai.cloudfunctions.net/demoApi/api/borrowers/{id}/escalate",
+					"protocol": "https",
+					"host": [
+						"australia-southeast1-finstack-ai",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"demoApi",
+						"api",
+						"borrowers",
+						"{id}",
+						"escalate"
+					]
+				},
+				"description": "Mock response for Escalate to Credit Committee"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Broker Info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://australia-southeast1-finstack-ai.cloudfunctions.net/demoApi/api/broker/{id}",
+					"protocol": "https",
+					"host": [
+						"australia-southeast1-finstack-ai",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"demoApi",
+						"api",
+						"broker",
+						"{id}"
+					]
+				},
+				"description": "Mock response for Get Broker Info"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Onboarding Workflow",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://australia-southeast1-finstack-ai.cloudfunctions.net/demoApi/api/onboarding/workflow",
+					"protocol": "https",
+					"host": [
+						"australia-southeast1-finstack-ai",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"demoApi",
+						"api",
+						"onboarding",
+						"workflow"
+					]
+				},
+				"description": "Mock response for Get Onboarding Workflow"
+			},
+			"response": []
+		}
+	]
+}
