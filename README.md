@@ -18,6 +18,7 @@
 
 Refer to the `api/` folder for mock API structure and responses:
 
+- [Readme](api/readme.md)
 - [Postman Collection](api/postman.json)
 - [Sample Response](api/sample-response.json)
 
