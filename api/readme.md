@@ -1,5 +1,5 @@
 
-# 🧪 Loanstax Mock API – cURL Guide
+# 🧪 Demo Mock API – cURL Guide
 
 Base URL:  
 `https://australia-southeast1-finstack-ai.cloudfunctions.net/demoApi`
